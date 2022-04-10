@@ -1,0 +1,9 @@
+{
+  "filename": "NewHorizonsConfig.dll",
+  "author": "CreativeNameTxt",
+  "name": "their homeworld",
+  "uniqueName": "CreativeNameTxt.theirhomeworld",
+  "version": "68.678.72",
+  "owmlVersion": "2.1.0",
+  "dependencies": [ "xen.NewHorizons" ]
+}

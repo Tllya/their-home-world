@@ -1,0 +1,43 @@
+{
+"name" : "Satellite22",
+"starSystem" : "CreativeNameTxt.their homeworld",
+"Base" :
+{
+"surfaceGravity" : 2,
+"surfaceSize" : 4,
+"hasMapMarker" : false,
+"hasAmbientLight" : false,
+"hasReferenceFrame": false
+},
+"Orbit" :
+{
+"semiMajorAxis" : 7500,
+"inclination" : 58.282525588538995,
+"longitudeOfAscendingNode" : 0.0,
+"trueAnomaly" : 228.0,
+"primaryBody" : "Suekondox",
+"isMoon" : false,
+"argumentOfPeriapsis" : 0,
+"isTidallyLocked" : true
+},
+"Props" :
+{
+"Details":[
+{
+"assetBundle":"planets/assets/SatteliteRingAssetBundle/solarsattlitering",
+"path":"Assets/solarSatteliteV3.prefab",
+"position":{
+"x": 0,
+"y": 0,
+"z": 0
+},
+"rotation":{
+"x":0,
+"y":0,
+"z":0
+},
+"scale": 1
+}
+]
+}
+}

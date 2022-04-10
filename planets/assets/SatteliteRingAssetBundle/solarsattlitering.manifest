@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 1683074198
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a2aeb22bf56154443075d6ca7aa78757
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5c1671466dab872c2fb8aea1479081e2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/RingRotated.prefab
+- Assets/ConstructionYardEmpty.prefab
+- Assets/solarSatteliteV2.prefab
+- Assets/solarSatteliteV1.prefab
+- Assets/Metal.mat
+- Assets/solarSatteliteV0.prefab
+- Assets/solarSatteliteV3.prefab
+- Assets/solarSatteliteV0.blend
+Dependencies: []

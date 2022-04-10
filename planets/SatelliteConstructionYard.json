@@ -1,0 +1,43 @@
+{
+	"name" : "Satellite Construction Yard",
+	"starSystem" : "CreativeNameTxt.their homeworld",
+	"Base" :
+	{
+		"surfaceGravity" : 0,
+		"surfaceSize" : 0,
+		"hasMapMarker" : false,
+		"hasAmbientLight" : false
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 12300,
+		"inclination" : 50,
+		"primaryBody" : "Suekondox",
+		"isMoon" : false,
+		"axialTilt": 30,
+		"siderealPeriod": 4,
+		"showOrbitLine": false
+	},
+	"Props" :
+	{
+		"Details":
+		[
+			{
+			"assetBundle":"planets/assets/SatteliteRingAssetBundle/solarsattlitering",
+			"path":"Assets/ConstructionYardEmpty.prefab",
+			"position":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+				"rotation":{
+				"x":0,
+				"y":0,
+				"z":0
+			},
+			"scale": 1
+			}
+		]
+	}
+
+}

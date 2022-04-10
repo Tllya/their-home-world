@@ -1,0 +1,48 @@
+{
+	"name" : "Suekondox",
+	"starSystem" : "CreativeNameTxt.their homeworld",
+	"Base" :
+	{
+		"surfaceGravity" : 100,
+		"surfaceSize" : 4667,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"centerOfSolarSystem" : true
+	},
+	"Orbit" :
+	{
+		"isStatic" : true
+	},
+	"Atmosphere" :
+	{
+		"size" : 7490,
+		"fogTint" : 
+		{
+			"r" : 39,
+			"g" : 230,
+			"b" : 230,
+			"a" : 255
+		},
+		"fogDensity": 0.4,
+		"fogSize": 7490
+	},
+	"Star" :
+	{
+		"size" : 6500,
+		"tint" : 
+		{
+			"r" : 39,
+			"g" : 230,
+			"b" : 230,
+			"a" : 255
+		},
+		"solarFlareTint" : 
+		{
+			"r" : 0,
+			"g" : 100,
+			"b" : 255,
+			"a" : 255
+		},
+		"solarLuminosity" : 0.8
+	}
+}

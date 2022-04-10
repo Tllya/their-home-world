@@ -1,0 +1,39 @@
+{
+	"name" : "Milus",
+	"starSystem" : "CreativeNameTxt.their homeworld",
+	"Base" :
+	{
+		"surfaceGravity" : 6,
+		"surfaceSize" : 120,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : false,
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 7643,
+		"inclination" : 0,
+		"primaryBody" : "Suekondox",
+		"isMoon" : false
+	},
+	"Atmosphere" :
+	{
+		"size" : 104,
+		"fogTint" : 
+		{
+			"r" : 168,
+			"g" : 121,
+			"b" : 84,
+			"a" : 255
+		},
+		"fogDensity": 230,
+		"fogSize": 104,
+		"hasAtmosphere" : false
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/heightmap.png",	
+		"textureMap" : "planets/assets/planet_texture.png",
+		"minHeight" : 100,
+		"maxHeight" : 122.8377018808765
+	}
+}

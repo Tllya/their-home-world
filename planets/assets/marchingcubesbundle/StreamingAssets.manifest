@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 3436251009
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: marchingcubes
+      Dependencies: {}

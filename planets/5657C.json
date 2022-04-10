@@ -1,0 +1,48 @@
+{
+	"name" : "5657C",
+	"starSystem" : "CreativeNameTxt.their homeworld",
+	"Base" :
+	{
+		"surfaceGravity" : 60,
+		"surfaceSize" : 1334,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 20000,
+		"inclination" : 0,
+		"primaryBody" : "Suekondox",
+		"isMoon" : false
+	},
+	"Atmosphere" :
+	{
+		"size" : 2000,
+		"fogTint" : 
+		{
+			"r" : 255,
+			"g" : 102,
+			"b" : 0,
+			"a" : 255
+		},
+		"fogDensity": 0.1,
+		"fogSize": 1000,
+		"hasAtmosphere" : true,
+		"hasRain" : true
+	},
+	"Water":
+	{
+		"size": 2000,
+		"tint":
+		{
+			"r" : 40,
+			"g" : 112,
+			"b" : 230,
+			"a" : 255
+		}
+	},
+	"Lava":
+	{
+		"size": 500
+	}
+}

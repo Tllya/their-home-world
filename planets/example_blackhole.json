@@ -1,0 +1,33 @@
+{
+	"name" : "Warp",
+	"Base" : 
+	{
+		"surfaceGravity" : 100,
+		"surfaceSize" : 50,
+		"gravityFallOff" : "inverseSquared",
+		"hasMapMarker" : true,
+		"lightTint" : 
+		{
+			"r" : 160,
+			"g" : 0,
+			"b" : 0,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 6000,
+		"inclination" : 180,
+		"primaryBody" : "Sun",
+		"isMoon" : false,
+		"longitudeOfAscendingNode" : 50,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0
+	},
+	"Singularity" :
+	{
+		"Size" : 50,
+		"Type" : "BlackHole",
+		"TargetStarSystem" : "CreativeNameTxt.their homeworld"
+	}
+}

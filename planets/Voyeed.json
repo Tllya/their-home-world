@@ -1,0 +1,42 @@
+{
+	"name" : "Voyeed",
+	"starSystem" : "CreativeNameTxt.their homeworld",
+	"Base" :
+	{
+		"surfaceGravity" : 15,
+		"surfaceSize" : 250,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : false
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 25000,
+		"inclination" : 50,
+		"primaryBody" : "Suekondox",
+		"isMoon" : false,
+		"axialTilt": 30,
+		"showOrbitLine": true
+	},
+	"Props" :
+	{
+		"Details":
+		[
+			{
+			"assetBundle":"planets/assets/marchingcubesbundle/marchingcubes",
+			"path":"Assets/Chunks Holder.prefab",
+			"position":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+				"rotation":{
+				"x":0,
+				"y":0,
+				"z":0
+			},
+			"scale": 1
+			}
+		]
+	}
+
+}

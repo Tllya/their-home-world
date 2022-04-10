@@ -1,0 +1,29 @@
+{
+	"name" : "SpawnPoint",
+	"starSystem":"CreativeNameTxt.their homeworld",
+	"Base" : 
+	{
+		"surfaceGravity" : 0,
+		"surfaceSize" : 1,
+		"hasMapMarker" : false,
+		"hasReferenceFrame": false
+	},
+	"Spawn" : 
+	{
+		"playerSpawnPoint" :
+		{"x": 0, "y": 10, "z": 0},
+		"shipSpawnPoint" :
+		{"x": 0, "y": 10, "z": 0},
+		"startwithSuit" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 12000,
+		"inclination" : 0,
+		"primaryBody" : "Suekondox",
+		"isMoon" : false,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0
+	}
+}
