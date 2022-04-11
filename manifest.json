@@ -3,7 +3,7 @@
   "author": "CreativeNameTxt",
   "name": "Their Homeworld",
   "uniqueName": "CreativeNameTxt.theirhomeworld",
-  "version": "0.0.68",
+  "version": "0.0.69",
   "owmlVersion": "2.1.0",
   "dependencies": [ "xen.NewHorizons" ]
 }
