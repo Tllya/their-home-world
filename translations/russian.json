@@ -5,11 +5,23 @@
    	},
     "ShipLogDictionary" :
     	{
-		"" : ""
-   	},
+		"Satellites" : "Спутники",
+		"The star has 60 satellites that orbit it at various angles, never colliding with each other." : "У звезды есть 60 спутников, орбита каждого из которых находиться под уникальным углом. Благодаря этому они не сталкиваются.",
+		"The Atmosphere of Suekondox" : "Атмосфера Гравлокса",
+		"The Atmosphere of the star slows you down so much, that you can't escape the gravitational pull, leading to it's original name \"Suekondoxnuts\", the conventional character cap for star names is 8 (due to 3 bits being allocated to store the length), so everyone just calls it Suekondox instead." : "Атмосфера этой звезды замедляет вас так, что вы не можете избежать её гравитационного притяжения, что привело к ее оригинальному названию \"Гравитационный заглот\", однако обычное количество символов для названий звезд равно 8 (из-за того, что на хранение названия отводится 3 бита), поэтому все называют ее просто Гравилот.",
+	
+		"Cliff" : "Склон",
+		"Milus appears to have a cliif that goes around the whole planet, the lower part of the planet is smooth and dusty." : "У планеты \"Пекло\" есть склон, который проходит вокруг всей планеты. Нижняя часть планеты гладкая и пыльная.",
+		
+		"Satellite Construction Yard" : "Станция строительства спутников",
+		"The general shape matches the satellites in oribt of Suekondox, could this be how they were made?" : "Форма этого места такая же, как и у спутников Гравилота. Может они были тут сделаны?",
+		
+		"Cave System" : "Система пещер",
+		"I found an opening that leads to an underground cave system." : "Я нашел путь, ведещий в обширную систему пещер под поверхностью Жеоды."
+	},
 	"UIDictionary" :
     	{
-		"Suekondox" : "Селеконделокс",
+		"Suekondox" : "Гравилот",
 		"Warp" : "Телепорт",
 
 		"Satellite0" : "Спутник 0",
@@ -72,6 +84,7 @@
 		"Satellite57" : "Спутник 57",
 		"Satellite58" : "Спутник 58",
 		"Satellite59" : "Спутник 59",
+		"Satellite Construction Yard" : "Станция строительства спутников",
 
 		"5657C" : "5657C",
 		"Milus" : "Пекло",

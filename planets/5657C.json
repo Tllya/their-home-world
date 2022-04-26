@@ -44,5 +44,17 @@
 	"Lava":
 	{
 		"size": 500
+	},
+	"ShipLog": {
+		"mapMode": {
+			"manualPosition": {
+				"x": 400,
+				"y": 0
+			},
+			"manualNavigationPosition": {
+				"x" : 2,
+				"y" : 0
+			}
+		}
 	}
 }

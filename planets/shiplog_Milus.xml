@@ -1,0 +1,17 @@
+<!-- Example File -->
+<!-- All files must have "AstroObjectEntry" as their root element, the xmlns:xsi=... and xsi:noNamespaceSchemaLocation=... is optional but heavily encouraged to reduce errors -->
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/shiplog_schema.xsd">
+    <ID>Milus</ID> <!-- The ID of the planet this xml file is for -->
+
+    <Entry> <!-- An Entry For This Planet -->
+        <ID>MilusCliff</ID> <!-- The ID of this entry -->
+        <Name>Cliff</Name> <!-- The name to show for this entry both on the card and in map mode -->
+
+        <ExploreFact> <!-- An explore fact that belongs to this entry -->
+            <ID>Cliff_01</ID> <!-- The ID of this fact -->
+            <Text>Milus appears to have a cliif that goes around the whole planet, the lower part of the planet is smooth and dusty.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+        </ExploreFact>
+    </Entry>
+
+</AstroObjectEntry>

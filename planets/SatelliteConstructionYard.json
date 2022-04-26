@@ -16,6 +16,7 @@
 		"isMoon" : false,
 		"axialTilt": 30,
 		"siderealPeriod": 4,
+		"trueAnomaly" : 69,
 		"showOrbitLine": false
 	},
 	"Props" :
@@ -37,7 +38,44 @@
 			},
 			"scale": 1
 			}
+		],
+		"reveal": [
+			{
+				"position": {
+				  "x": 0,
+				  "y": 0,
+				  "z": 0
+				},
+				"revealOn": "enter",
+				"reveals": [
+				  "SYard_01"
+				],
+				"radius": 1000
+			}
 		]
+	},
+	"ShipLog": {
+		"xmlFile": "planets/shiplog_Sat.xml",
+		"entryPositions": [
+		    {
+				"id": "SYard",
+				"position": {
+				    "x": 200,
+				    "y": 0
+				}
+		    }
+		],
+		"mapMode": {
+			"manualPosition": {
+				"x": 300,
+				"y": 100
+			},
+			"manualNavigationPosition": {
+				"x" : 1,
+				"y" : 1
+			},
+			"invisibleWhenHidden": true
+		}
 	}
 
 }

@@ -1,0 +1,27 @@
+<!-- Example File -->
+<!-- All files must have "AstroObjectEntry" as their root element, the xmlns:xsi=... and xsi:noNamespaceSchemaLocation=... is optional but heavily encouraged to reduce errors -->
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/shiplog_schema.xsd">
+    <ID>Suekondox</ID> <!-- The ID of the planet this xml file is for -->
+
+    <Entry> <!-- An Entry For This Planet -->
+        <ID>SuekondoxSat</ID> <!-- The ID of this entry -->
+        <Name>Satellites</Name> <!-- The name to show for this entry both on the card and in map mode -->
+
+        <ExploreFact> <!-- An explore fact that belongs to this entry -->
+            <ID>Satellites_01</ID> <!-- The ID of this fact -->
+            <Text>The star has 60 satellites that orbit it at various angles, never colliding with each other.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+        </ExploreFact>
+    </Entry>
+	
+	<Entry> <!-- An Entry For This Planet -->
+        <ID>SuekondoxDeath</ID> <!-- The ID of this entry -->
+        <Name>The Atmosphere of Suekondox</Name> <!-- The name to show for this entry both on the card and in map mode -->
+
+        <ExploreFact> <!-- An explore fact that belongs to this entry -->
+            <ID>Death_01</ID> <!-- The ID of this fact -->
+            <Text>The Atmosphere of the star slows you down so much, that you can't escape the gravitational pull, leading to it's original name "Suekondoxnuts", the conventional character cap for star names is 8 (due to 3 bits being allocated to store the length), so everyone just calls it Suekondox instead.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+        </ExploreFact>
+    </Entry>
+
+</AstroObjectEntry>

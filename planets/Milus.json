@@ -35,5 +35,44 @@
 		"textureMap" : "planets/assets/planet_texture.png",
 		"minHeight" : 100,
 		"maxHeight" : 122.8377018808765
+	},
+	"Props": {
+		"reveal": [
+			{
+				"position": {
+				  "x": 0,
+				  "y": 0,
+				  "z": 0
+				},
+				"revealOn": "enter",
+				"reveals": [
+				  "Cliff_01"
+				],
+				"radius": 1000
+			}
+		]
+	},
+	"ShipLog": {
+		"xmlFile": "planets/shiplog_Milus.xml",
+		"entryPositions": [
+		    {
+				"id": "MilusCliff",
+				"position": {
+				    "x": 0,
+				    "y": 0
+				}
+		    }
+		],
+		"mapMode": {
+			"manualPosition": {
+				"x": 400,
+				"y": 0
+			},
+			"manualNavigationPosition": {
+				"x" : 1,
+				"y" : 0
+			}
+		}
 	}
+	
 }

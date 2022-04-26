@@ -44,5 +44,53 @@
 			"a" : 255
 		},
 		"solarLuminosity" : 0.8
+	},
+	"Props": {
+		"reveal": [
+			{
+				"position": {
+				  "x": 0,
+				  "y": 0,
+				  "z": 0
+				},
+				"revealOn": "enter",
+				"reveals": [
+				  "Death_01"
+				],
+				"radius": 7000
+			}
+		]
+	},
+	"ShipLog": {
+		"xmlFile": "planets/shiplog_Sue.xml",
+		"initialReveal": [
+			"Satellites_01"
+		],
+		"entryPositions": [
+		    {
+				"id": "SuekondoxSat",
+				"position": {
+				    "x": -300,
+				    "y": 200
+				}
+		    },
+			{
+				"id": "SuekondoxDeath",
+				"position": {
+				    "x": 300,
+				    "y": 200
+				}
+		    }
+		],
+		"mapMode": {
+			"manualPosition": {
+				"x": -100,
+				"y": 0
+			},
+			"manualNavigationPosition": {
+				"x" : 0,
+				"y" : 0
+			}
+		}
 	}
 }

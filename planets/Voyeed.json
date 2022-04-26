@@ -15,7 +15,8 @@
 		"primaryBody" : "Suekondox",
 		"isMoon" : false,
 		"axialTilt": 30,
-		"showOrbitLine": true
+		"showOrbitLine": true,
+		"IsTidallyLocked": true
 	},
 	"Props" :
 	{
@@ -36,7 +37,43 @@
 			},
 			"scale": 1
 			}
+		],
+		"reveal": [
+			{
+				"position": {
+				  "x": 0,
+				  "y": 0,
+				  "z": 0
+				},
+				"revealOn": "enter",
+				"reveals": [
+				  "Cave_System_01"
+				],
+				"radius": 170
+			}
 		]
+	},
+	"ShipLog": {
+		"xmlFile": "planets/shiplog_Voyeed.xml",
+		"entryPositions": [
+		    {
+				"id": "VoyeedCaves",
+				"position": {
+				    "x": 100,
+				    "y": 200
+				}
+		    }
+		],
+		"mapMode": {
+			"manualPosition": {
+				"x": 600,
+				"y": 0
+			},
+			"manualNavigationPosition": {
+				"x" : 3,
+				"y" : 0
+			}
+		}
 	}
 
 }
